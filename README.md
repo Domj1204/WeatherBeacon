@@ -8,13 +8,13 @@ Weather Dashboard is an interactive web application designed to provide real-tim
 - Learnings: Gained insights into handling APIs, local storage, and improving user experience through JavaScript.
 
 # Table of Contents
--Objective
--Installation
--Usage
--Features
--Local Storage Explanation
--Credits
--License
+-[Objective](#objective)
+-[Installation](#installation)
+-[Usage](#usage)
+-[Features](#features)
+-[LocalStorageExplanation](#local-storage-explanation)
+-[Credits](#credits)
+-[License](#license)
 
 # Objective
 The objective of this project is to create a practical and interactive tool for users to access weather data, store their search history, and revisit previous searches with ease.
