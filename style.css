@@ -1,0 +1,89 @@
+/* Importing the 'Open Sans' font from Google Fonts in different styles like italic and various weights (thickness) */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700');
+
+/* Setting the default font and background for everything on the page */
+body {
+    font-family: 'Open Sans', sans-serif; /* The default font style for the text */
+    background: lightblue; /* The color of the page background */
+}
+
+/* Styling the header section of the page */
+header {
+    background: #3d3d3d; /* The background color of the header */
+    padding: 10px; /* The space inside the header border, making the content not touch the edges */
+    text-align: center; /* The text inside the header is centered */
+    color: white; /* The color of the text inside the header */
+}
+
+/* Styling the h1 tag, usually the main title or heading on the page */
+h1 {
+    font-size: 2.5rem; /* The size of the font for the h1 tag, rem is relative to the font-size of the root element */
+}
+
+/* Styling the images within the element that has a class of 'icon' */
+.icon img {
+    width: 50px; /* The width of the image */
+    height: auto; /* The height will scale automatically to keep the image's aspect ratio */
+}
+
+/* Styling the container that holds all content */
+.container {
+    display: flex; /* Makes the container use flexbox, a way to lay out, align and distribute space among items in a container */
+    gap: 35px; /* Creates space between each item in the flex container */
+    padding: 30px; /* Space inside the container's border, so content doesn't touch the edges */
+}
+
+/* Styling the section where the user inputs weather data */
+.weather-input {
+    width: 500px; /* The width of the input area */
+}
+
+/* Styling the input field where users will type the city name */
+.weather-input input {
+    width: 75%; /* The input field will take up 100% of the width of its parent element */
+    height: 25px; /* The height of the input field */
+    outline: none; /* Removes the default focus outline */
+    padding: 0 10px; /* Space inside the input field, so the text doesn't touch the edges */
+    font-size: 1rem; /* The size of the text inside the input field */
+    border-radius: 4px; /* Rounds the corners of the input field */
+    border: 1px solid #ccc; /* The color and width of the border around the input field */
+}
+
+/* Styling the section where the weather data will be displayed */
+.weather-data {
+    width: 100%; /* The weather data section will take up 100% of the width of its parent element */
+    height: 1px;
+}
+
+.weather-input button {
+    cursor: pointer
+}
+
+.current-weather {
+    color: black;
+    background: #ffffff
+}
+
+.card img {
+    width: 50px;
+    height: auto;
+}
+
+.weather-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.weather-cards .card {
+    list-style: none
+    padding: 18px 16px;
+    border-radius: 5px;
+    background: grey
+}
+
+@media (max-width: 768px) {
+  .weather-cards {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+  }
+}
