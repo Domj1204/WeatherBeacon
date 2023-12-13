@@ -8,13 +8,13 @@ Weather Dashboard is an interactive web application designed to provide real-tim
 - Learnings: Gained insights into handling APIs, local storage, and improving user experience through JavaScript.
 
 # Table of Contents
--[Objective](#objective)
--[Installation](#installation)
--[Usage](#usage)
--[Features](#features)
--[LocalStorageExplanation](#local-storage-explanation)
--[Credits](#credits)
--[License](#license)
+- [Objective](#objective)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [LocalStorageExplanation](#local-storage-explanation)
+- [Credits](#credits)
+- [License](#license)
 
 # Objective
 The objective of this project is to create a practical and interactive tool for users to access weather data, store their search history, and revisit previous searches with ease.
@@ -28,6 +28,11 @@ Search for a city to view its current and 5-day forecasted weather.
 View and interact with your search history.
 Reset search history as needed.
 
+![Alt text](<images/Screenshot 2023-12-12 at 5.14.18 PM.png>)
+![Alt text](<images/Screenshot 2023-12-12 at 5.15.46 PM.png>)
+![Alt text](<images/Screenshot 2023-12-12 at 5.15.00 PM.png>)
+![Alt text](<images/Screenshot 2023-12-12 at 5.14.35 PM.png>)
+
 # Features
 Real-time weather updates.
 Search history storage and interaction.
@@ -37,11 +42,11 @@ Responsive design for various devices.
 Local storage is used to save the user's search history persistently. The application stores each searched city in an array, which is then saved to the browser's local storage. This allows the application to remember the user's previous searches even after the browser is closed and reopened.
 
 # Credits
-OpenWeatherMap API for weather data.
-Icons from Flaticon.
+- https://javascript.plainenglish.io/build-a-real-time-weather-app-with-javascript-and-openweathermap-api-bcf8111df1fe
+- https://stackoverflow.com/questions/65373299/how-can-i-use-city-name-instead-of-lat-and-log-in-openweather-api
+- https://dev.to/iamcymentho/building-a-complete-weather-app-from-scratch-with-html-css-and-javascript-a-step-by-step-guide-30h4
+- https://forum.freecodecamp.org/t/local-weather-app-code-structure/594945
 
 # License
 This project is licensed under the MIT License - see https://choosealicense.com/licenses/mit/ for details.
 
-How to Contribute
-Contributions are welcome. Please follow the Contributor Covenant for community guidelines.
